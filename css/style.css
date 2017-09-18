@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Lato");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+#copywrite {
+  text-align: center;
+  padding: 10px 0 0 0;
+  }
+
+.fa {
+    padding: 0 10px 0 0;
+    color: #fff;
+  }
+
+body {
+	  font-family: 'Lato', sans-serif;
+  }
+
+.img2 {
+	    display: block;
+	    margin: 0 auto;
+	    max-width: 100%;
+}
+
+figure {
+  text-align: center;
+}
+
+#name{font-family: 'Lato', sans-serif;}
+
+div > h1 {
+	color: #fff;
+	text-align: center;
+  }
+
+div > h3 {
+	color: #fff;
+	text-align: center;
+  }
+
+.head {
+	background-color: red;
+	width: 100%;
+  }
+
+div p {
+	text-align: justify;
+  text-justify: newspaper;
+	font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  }
+
+p.c{
+  font-family: 'Lato', sans-serif;
+  }
+
+#ul.li {
+	align-items: right;
+  }
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+ }
+
+.footer {
+        background-color: #FF0000;
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+        }
+
+.footer > a {
+        	text-align: center;
+        	color: #fff;
+        	padding: 12px;
+        	font-size: 0.8em;
+        }
+
+.small {
+        color: #fff;
+        }
+
+.small  a {
+	color: #fff;
+	text-decoration: none;
+}
+
+@media (max-width: 350px){
+        
+div p {
+	     text-align: justify;
+       text-justify: newspaper;
+	     font-size: 0.8em;
+       }
+
+.footer {
+        background-color: red;
+        width: 100%;
+        margin-top: 10px;
+        }
+.footer a{
+        	text-align: center;
+        	color: #fff;
+        	font-size: 1em;
+        }
+}
+
+@media (max-width: 500px) {
+	    
+div p {
+	     text-align: justify;
+       text-justify: newspaper;
+	      font-size: 0.8em;
+       }
+
+.footer {
+        background-color: red;
+        width: 100%;
+        margin-top: 10px;
+        }
+  
+.footer a{
+        	text-align: center;
+        	color: #fff;
+        }
+
+
+}
+
+@media (max-width: 950px) {
+	    
+div p {
+	     text-align: justify;
+       text-justify: newspaper;
+	     font-size: 1em;
+       }
+  
+.footer {
+         background-color: red;
+         width: 100%;
+         margin-top: 10px;
+        }
+  
+.footer a{
+        text-align: center;
+        color: #fff;
+        }
+
+
+}
